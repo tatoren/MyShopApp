@@ -56,6 +56,10 @@
     <Compile Include="Migrations\201911112249390_Initail.designer.cs">
       <DependentUpon>201911112249390_Initail.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911120113393_PriceToDecimal.cs" />
+    <Compile Include="Migrations\201911120113393_PriceToDecimal.designer.cs">
+      <DependentUpon>201911120113393_PriceToDecimal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLRepository.cs" />
@@ -73,6 +77,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201911112249390_Initail.resx">
       <DependentUpon>201911112249390_Initail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911120113393_PriceToDecimal.resx">
+      <DependentUpon>201911120113393_PriceToDecimal.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
